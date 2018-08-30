@@ -1,0 +1,27 @@
+{
+  "name": "trishula-bulma",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "css-build": "node-sass --omit-source-map-url sass/custom.scss css/style.css",
+    "css-watch": "npm run css-build -- --watch",
+    "start": "npm run css-watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/andre-chou-movile/Trishula-bulma.git"
+  },
+  "author": "André Chou",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andre-chou-movile/Trishula-bulma/issues"
+  },
+  "homepage": "https://github.com/andre-chou-movile/Trishula-bulma#readme",
+  "devDependencies": {
+    "bulma": "^0.7.1",
+    "node-sass": "^4.9.3",
+    "tachyons": "^4.10.0"
+  }
+}
